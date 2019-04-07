@@ -4,6 +4,6 @@ def oxford_comma(the_array)
    elsif the_array.length == 2
    the_string = the_array * " and "
      else
-    str = "#{the_array[0...-1]*", "}, and #{the_array.last}"
+    the_string = "#{the_array[0...-1]*", "}, and #{the_array.last}"
   end
 end
